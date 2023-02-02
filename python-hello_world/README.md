@@ -1,11 +1,9 @@
-Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+Write a script that compiles a Python script file.
 
 
 
-Use the function write from the sys module
+The Python file name will be stored in the environment variable 
 
-You are not allowed to use print
 
-Your script should print to stderr
 
-Your script should exit with the status code 1
+The output filename has to be  (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
