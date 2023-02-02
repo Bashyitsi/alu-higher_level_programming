@@ -1,9 +1,15 @@
-Write a script that compiles a Python script file.
+Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 
 
 
-The Python file name will be stored in the environment variable 
+  3           0 LOAD_CONST               1 (98)
 
+              3 LOAD_FAST                0 (a)
 
+              6 LOAD_FAST                1 (b)
 
-The output filename has to be  (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
+              9 BINARY_POWER
+
+             10 BINARY_ADD
+
+             11 RETURN_VALUE 
