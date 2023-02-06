@@ -1,17 +1,11 @@
-Write a program that prints numbers from 0 to 99.
+Write a function that computes a to the power of b and return the value.
 
 
 
-Numbers must be separated by ,, followed by a space
+Prototype: def pow(a, b):
 
-Numbers should be printed in ascending order, with two digits
-
-The last number should be followed by a new line
-
-You can only use no more than 2 print functions with string format
-
-You can only use one loop in your code
-
-You are not allowed to store numbers or strings in a variable
+Returns the value of a ^ b
 
 You are not allowed to import any module
+
+You don’t need to understand __import__
