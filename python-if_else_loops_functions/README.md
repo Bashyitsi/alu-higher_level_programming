@@ -1,10 +1,10 @@
-Write a function that prints the last digit of a number.
+Write a function that adds two integers and returns the result.
 
 
 
-Prototype: def print_last_digit(number):
+Prototype: def add(a, b):
 
-Returns the value of the last digit
+Returns the value of a + b
 
 You are not allowed to import any module
 
