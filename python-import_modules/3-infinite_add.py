@@ -9,4 +9,3 @@ if __name__ == "__main__":
         res += int(sys.argv[index])
         index += 1
     print("{:d}".format(res))
-
